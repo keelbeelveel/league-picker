@@ -1,0 +1,11 @@
+env/
+build/
+dist/
+__pycache__
+*/__pycache__/*
+*.egg_info/
+*/tmp/*
+tmp/*
+.tmp/*
+*/.tmp/*
+

@@ -1,0 +1,25 @@
+Command error: Command "rolls" is not found
+Command error: Command "rolls" is not found
+Command error: Command "rolls" is not found
+Command error: Command "rolls" is not found
+Command error: Command "rolls" is not found
+Unhandled message: <Message id=836463716207427634 channel=<DMChannel id=836401676851085403 recipient=<User id=195241303460675584 name='keelbeelveel' discriminator='7557' bot=False>> type=<MessageType.default: 0> author=<User id=195241303460675584 name='keelbeelveel' discriminator='7557' bot=False> flags=<MessageFlags value=0>>
+Unhandled message: <Message id=836463996789719052 channel=<DMChannel id=836401676851085403 recipient=<User id=195241303460675584 name='keelbeelveel' discriminator='7557' bot=False>> type=<MessageType.default: 0> author=<User id=195241303460675584 name='keelbeelveel' discriminator='7557' bot=False> flags=<MessageFlags value=0>>
+Unhandled message: <Message id=836465680349003786 channel=<DMChannel id=836401676851085403 recipient=<User id=195241303460675584 name='keelbeelveel' discriminator='7557' bot=False>> type=<MessageType.default: 0> author=<User id=195241303460675584 name='keelbeelveel' discriminator='7557' bot=False> flags=<MessageFlags value=0>>
+Unhandled message: <Message id=836465848809553941 channel=<DMChannel id=836401676851085403 recipient=<User id=195241303460675584 name='keelbeelveel' discriminator='7557' bot=False>> type=<MessageType.default: 0> author=<User id=195241303460675584 name='keelbeelveel' discriminator='7557' bot=False> flags=<MessageFlags value=0>>
+Unhandled message: <Message id=836467166588043285 channel=<DMChannel id=836401676851085403 recipient=<User id=195241303460675584 name='keelbeelveel' discriminator='7557' bot=False>> type=<MessageType.default: 0> author=<User id=195241303460675584 name='keelbeelveel' discriminator='7557' bot=False> flags=<MessageFlags value=0>>
+Unhandled message: <Message id=836467275162189846 channel=<DMChannel id=836401676851085403 recipient=<User id=195241303460675584 name='keelbeelveel' discriminator='7557' bot=False>> type=<MessageType.default: 0> author=<User id=195241303460675584 name='keelbeelveel' discriminator='7557' bot=False> flags=<MessageFlags value=0>>
+Command error: Command "rol" is not found
+Command error: Command "info" is not found
+Command error: Command "info_lists" is not found
+Command error: Unexpected quote mark, '"', in non-quoted string
+Command error: Command raised an exception: IndexError: list index out of range
+Command error: Command raised an exception: IndexError: list index out of range
+Command error: Command raised an exception: IndexError: list index out of range
+Command error: Command raised an exception: IndexError: list index out of range
+Command error: Command raised an exception: IndexError: list index out of range
+Command error: Command raised an exception: IndexError: list index out of range
+Command error: Command raised an exception: IndexError: list index out of range
+Command error: Command raised an exception: IndexError: list index out of range
+Command error: Command raised an exception: IndexError: list index out of range
+Command error: Command raised an exception: IndexError: list index out of range
