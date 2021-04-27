@@ -9,4 +9,4 @@ tmp/*
 .tmp/*
 */.tmp/*
 .env
-
+*/.env
