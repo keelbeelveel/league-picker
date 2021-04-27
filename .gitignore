@@ -10,3 +10,4 @@ tmp/*
 */.tmp/*
 .env
 */.env
+leaguepicker/.env
