@@ -17,7 +17,8 @@
             "mid": 3,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 266
     },
     "ahri": {
         "positions": {
@@ -37,7 +38,8 @@
             "mid": 9,
             "bottom": 5,
             "support": 7
-        }
+        },
+        "cid": 103
     },
     "akali": {
         "positions": {
@@ -57,7 +59,8 @@
             "mid": 9,
             "bottom": 4,
             "support": 2
-        }
+        },
+        "cid": 84
     },
     "alistar": {
         "positions": {
@@ -77,7 +80,8 @@
             "mid": 5,
             "bottom": 3,
             "support": 9
-        }
+        },
+        "cid": 12
     },
     "amumu": {
         "positions": {
@@ -97,7 +101,8 @@
             "mid": 4,
             "bottom": 3,
             "support": 4
-        }
+        },
+        "cid":32
     },
     "anivia": {
         "positions": {
@@ -117,7 +122,8 @@
             "mid": 9,
             "bottom": 4,
             "support": 4
-        }
+        },
+        "cid":34
     },
     "annie": {
         "positions": {
@@ -137,7 +143,8 @@
             "mid": 9,
             "bottom": 5,
             "support": 7
-        }
+        },
+        "cid":1
     },
     "aphelios": {
         "positions": {
@@ -157,7 +164,8 @@
             "mid": 6,
             "bottom": 9,
             "support": 4
-        }
+        },
+        "cid": 523
     },
     "ashe": {
         "positions": {
@@ -177,7 +185,8 @@
             "mid": 5,
             "bottom": 9,
             "support": 7
-        }
+        },
+        "cid": 22
     },
     "aurelion sol": {
         "positions": {
@@ -202,7 +211,8 @@
             "mid": 9,
             "bottom": 7,
             "support": 5
-        }
+        },
+        "cid": 136
     },
     "azir": {
         "positions": {
@@ -222,7 +232,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 268
     },
     "bard": {
         "positions": {
@@ -242,7 +253,8 @@
             "mid": 6,
             "bottom": 3,
             "support": 9
-        }
+        },
+        "cid": 432
     },
     "blitzcrank": {
         "positions": {
@@ -264,7 +276,8 @@
             "mid": 6,
             "bottom": 3,
             "support": 9
-        }
+        },
+        "cid": 53
     },
     "brand": {
         "positions": {
@@ -284,7 +297,8 @@
             "mid": 8,
             "bottom": 6,
             "support": 9
-        }
+        },
+        "cid": 63
     },
     "braum": {
         "positions": {
@@ -304,7 +318,8 @@
             "mid": 3,
             "bottom": 3,
             "support": 9
-        }
+        },
+        "cid": 201
     },
     "caitlyn": {
         "positions": {
@@ -325,7 +340,8 @@
             "mid": 7,
             "bottom": 9,
             "support": 5
-        }
+        },
+        "cid": 51
     },
     "camille": {
         "positions": {
@@ -345,7 +361,8 @@
             "mid": 7,
             "bottom": 3,
             "support": 7
-        }
+        },
+        "cid": 164
     },
     "cassiopeia": {
         "positions": {
@@ -366,7 +383,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 7
-        }
+        },
+        "cid": 69
     },
     "cho'gath": {
         "positions": {
@@ -389,7 +407,8 @@
             "mid": 4,
             "bottom": 2,
             "support": 3
-        }
+        },
+        "cid": 31
     },
     "corki": {
         "positions": {
@@ -409,7 +428,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 42
     },
     "darius": {
         "positions": {
@@ -429,7 +449,8 @@
             "mid": 5,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 122
     },
     "diana": {
         "positions": {
@@ -449,7 +470,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 6
-        }
+        },
+        "cid": 131
     },
     "draven": {
         "positions": {
@@ -469,7 +491,8 @@
             "mid": 5,
             "bottom": 9,
             "support": 3
-        }
+        },
+        "cid": 119
     },
     "dr. mundo": {
         "positions": {
@@ -492,7 +515,8 @@
             "mid": 5,
             "bottom": 4,
             "support": 1
-        }
+        },
+        "cid": 36
     },
     "ekko": {
         "positions": {
@@ -512,7 +536,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 245
     },
     "elise": {
         "positions": {
@@ -532,7 +557,8 @@
             "mid": 6,
             "bottom": 3,
             "support": 6
-        }
+        },
+        "cid":  60
     },
     "evelynn": {
         "positions": {
@@ -553,7 +579,8 @@
             "mid": 7,
             "bottom": 3,
             "support": 5
-        }
+        },
+        "cid": 28
     },
     "ezreal": {
         "positions": {
@@ -575,7 +602,8 @@
             "mid": 7,
             "bottom": 9,
             "support": 3
-        }
+        },
+        "cid": 81
     },
     "fiddlesticks": {
         "positions": {
@@ -596,7 +624,8 @@
             "mid": 5,
             "bottom": 3,
             "support": 4
-        }
+        },
+        "cid": 9
     },
     "fiora": {
         "positions": {
@@ -616,7 +645,8 @@
             "mid": 7,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 114
     },
     "fizz": {
         "positions": {
@@ -636,7 +666,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 105
     },
     "galio": {
         "positions": {
@@ -656,7 +687,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 8
-        }
+        },
+        "cid": 3
     },
     "gangplank": {
         "positions": {
@@ -676,7 +708,8 @@
             "mid": 5,
             "bottom": 6,
             "support": 4
-        }
+        },
+        "cid": 41
     },
     "garen": {
         "positions": {
@@ -696,7 +729,8 @@
             "mid": 7,
             "bottom": 3,
             "support": 0
-        }
+        },
+        "cid": 86
     },
     "gnar": {
         "positions": {
@@ -716,7 +750,8 @@
             "mid": 5,
             "bottom": 6,
             "support": 0
-        }
+        },
+        "cid": 150
     },
     "gragas": {
         "positions": {
@@ -736,7 +771,8 @@
             "mid": 3,
             "bottom": 3,
             "support": 7
-        }
+        },
+        "cid": 79
     },
     "graves": {
         "positions": {
@@ -756,7 +792,8 @@
             "mid": 6,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 104
     },
     "gwen": {
         "positions": {
@@ -776,7 +813,8 @@
             "mid": 8,
             "bottom": 3,
             "support": 4
-        }
+        },
+        "cid": 887
     },
     "hecarim": {
         "positions": {
@@ -798,7 +836,8 @@
             "mid": 4,
             "bottom": 0,
             "support": 4
-        }
+        },
+        "cid": 120
     },
     "heimerdinger": {
         "positions": {
@@ -819,7 +858,8 @@
             "mid": 9,
             "bottom": 6,
             "support": 7
-        }
+        },
+        "cid": 74
     },
     "illaoi": {
         "positions": {
@@ -839,7 +879,8 @@
             "mid": 7,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 420
     },
     "irelia": {
         "positions": {
@@ -859,7 +900,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 4
-        }
+        },
+        "cid": 39
     },
     "ivern": {
         "positions": {
@@ -879,7 +921,8 @@
             "mid": 4,
             "bottom": 4,
             "support": 4
-        }
+        },
+        "cid": 427
     },
     "janna": {
         "positions": {
@@ -899,7 +942,8 @@
             "mid": 7,
             "bottom": 7,
             "support": 9
-        }
+        },
+        "cid": 40
     },
     "jarvan iv": {
         "positions": {
@@ -923,7 +967,8 @@
             "mid": 6,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 59
     },
     "jax": {
         "positions": {
@@ -943,7 +988,8 @@
             "mid": 8,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 24
     },
     "jayce": {
         "positions": {
@@ -963,7 +1009,8 @@
             "mid": 6,
             "bottom": 6,
             "support": 5
-        }
+        },
+        "cid": 126
     },
     "jhin": {
         "positions": {
@@ -983,7 +1030,8 @@
             "mid": 6,
             "bottom": 9,
             "support": 2
-        }
+        },
+        "cid": 202
     },
     "jinx": {
         "positions": {
@@ -1003,7 +1051,8 @@
             "mid": 5,
             "bottom": 9,
             "support": 3
-        }
+        },
+        "cid": 222
     },
     "kai'sa": {
         "positions": {
@@ -1026,7 +1075,8 @@
             "mid": 5,
             "bottom": 9,
             "support": 3
-        }
+        },
+        "cid": 145
     },
     "kalista": {
         "positions": {
@@ -1046,7 +1096,8 @@
             "mid": 5,
             "bottom": 9,
             "support": 3
-        }
+        },
+        "cid": 429
     },
     "karma": {
         "positions": {
@@ -1066,7 +1117,8 @@
             "mid": 5,
             "bottom": 5,
             "support": 5
-        }
+        },
+        "cid": 43
     },
     "karthus": {
         "positions": {
@@ -1086,7 +1138,8 @@
             "mid": 7,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 30
     },
     "kassadin": {
         "positions": {
@@ -1108,7 +1161,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 38
     },
     "katarina": {
         "positions": {
@@ -1128,7 +1182,8 @@
             "mid": 9,
             "bottom": 4,
             "support": 2
-        }
+        },
+        "cid": 55
     },
     "kayle": {
         "positions": {
@@ -1148,7 +1203,8 @@
             "mid": 8,
             "bottom": 7,
             "support": 3
-        }
+        },
+        "cid": 10
     },
     "kayn": {
         "positions": {
@@ -1168,7 +1224,8 @@
             "mid": 4,
             "bottom": 2,
             "support": 0
-        }
+        },
+        "cid": 141
     },
     "kennen": {
         "positions": {
@@ -1188,7 +1245,8 @@
             "mid": 3,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 85
     },
     "kha'zix": {
         "positions": {
@@ -1211,7 +1269,8 @@
             "mid": 4,
             "bottom": 1,
             "support": 3
-        }
+        },
+        "cid": 121
     },
     "kindred": {
         "positions": {
@@ -1231,7 +1290,8 @@
             "mid": 6,
             "bottom": 8,
             "support": 3
-        }
+        },
+        "cid": 203
     },
     "kled": {
         "positions": {
@@ -1251,7 +1311,8 @@
             "mid": 3,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 240
     },
     "kog'maw": {
         "positions": {
@@ -1274,7 +1335,8 @@
             "mid": 3,
             "bottom": 9,
             "support": 3
-        }
+        },
+        "cid": 96
     },
     "leblanc": {
         "positions": {
@@ -1294,7 +1356,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 4
-        }
+        },
+        "cid": 7
     },
     "lee sin": {
         "positions": {
@@ -1317,7 +1380,8 @@
             "mid": 8,
             "bottom": 3,
             "support": 5
-        }
+        },
+        "cid": 64
     },
     "leona": {
         "positions": {
@@ -1337,7 +1401,8 @@
             "mid": 3,
             "bottom": 3,
             "support": 9
-        }
+        },
+        "cid": 89
     },
     "lillia": {
         "positions": {
@@ -1357,7 +1422,8 @@
             "mid": 7,
             "bottom": 3,
             "support": 5
-        }
+        },
+        "cid": 876
     },
     "lissandra": {
         "positions": {
@@ -1378,7 +1444,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 127
     },
     "lucian": {
         "positions": {
@@ -1398,7 +1465,8 @@
             "mid": 9,
             "bottom": 8,
             "support": 7
-        }
+        },
+        "cid": 236
     },
     "lulu": {
         "positions": {
@@ -1418,7 +1486,8 @@
             "mid": 4,
             "bottom": 5,
             "support": 9
-        }
+        },
+        "cid": 117
     },
     "lux": {
         "positions": {
@@ -1438,7 +1507,8 @@
             "mid": 9,
             "bottom": 6,
             "support": 8
-        }
+        },
+        "cid": 99
     },
     "malphite": {
         "positions": {
@@ -1458,7 +1528,8 @@
             "mid": 3,
             "bottom": 3,
             "support": 6
-        }
+        },
+        "cid": 54
     },
     "malzahar": {
         "positions": {
@@ -1478,7 +1549,8 @@
             "mid": 9,
             "bottom": 4,
             "support": 6
-        }
+        },
+        "cid": 90
     },
     "maokai": {
         "positions": {
@@ -1498,7 +1570,8 @@
             "mid": 3,
             "bottom": 3,
             "support": 9
-        }
+        },
+        "cid": 57
     },
     "master yi": {
         "positions": {
@@ -1521,7 +1594,8 @@
             "mid": 4,
             "bottom": 5,
             "support": 0
-        }
+        },
+        "cid": 11
     },
     "miss fortune": {
         "positions": {
@@ -1544,7 +1618,8 @@
             "mid": 5,
             "bottom": 9,
             "support": 0
-        }
+        },
+        "cid": 21
     },
     "mordekaiser": {
         "positions": {
@@ -1564,7 +1639,8 @@
             "mid": 7,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 82
     },
     "morgana": {
         "positions": {
@@ -1585,7 +1661,8 @@
             "mid": 8,
             "bottom": 6,
             "support": 9
-        }
+        },
+        "cid": 25
     },
     "nami": {
         "positions": {
@@ -1605,7 +1682,8 @@
             "mid": 5,
             "bottom": 3,
             "support": 9
-        }
+        },
+        "cid": 267
     },
     "nasus": {
         "positions": {
@@ -1625,7 +1703,8 @@
             "mid": 6,
             "bottom": 4,
             "support": 2
-        }
+        },
+        "cid": 75
     },
     "nautilus": {
         "positions": {
@@ -1646,7 +1725,8 @@
             "mid": 4,
             "bottom": 3,
             "support": 9
-        }
+        },
+        "cid": 111
     },
     "neeko": {
         "positions": {
@@ -1666,7 +1746,8 @@
             "mid": 9,
             "bottom": 7,
             "support": 8
-        }
+        },
+        "cid": 518
     },
     "nidalee": {
         "positions": {
@@ -1687,7 +1768,8 @@
             "mid": 5,
             "bottom": 6,
             "support": 5
-        }
+        },
+        "cid": 76
     },
     "nocturne": {
         "positions": {
@@ -1707,7 +1789,8 @@
             "mid": 7,
             "bottom": 3,
             "support": 5
-        }
+        },
+        "cid": 56
     },
     "nunu & willump": {
         "positions": {
@@ -1730,7 +1813,8 @@
             "mid": 6,
             "bottom": 1,
             "support": 3
-        }
+        },
+        "cid": 20
     },
     "olaf": {
         "positions": {
@@ -1750,7 +1834,8 @@
             "mid": 3,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 2
     },
     "orianna": {
         "positions": {
@@ -1770,7 +1855,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 6
-        }
+        },
+        "cid": 61
     },
     "ornn": {
         "positions": {
@@ -1790,7 +1876,8 @@
             "mid": 5,
             "bottom": 1,
             "support": 4
-        }
+        },
+        "cid": 516
     },
     "pantheon": {
         "positions": {
@@ -1810,7 +1897,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 8
-        }
+        },
+        "cid": 80
     },
     "poppy": {
         "positions": {
@@ -1830,7 +1918,8 @@
             "mid": 4,
             "bottom": 3,
             "support": 5
-        }
+        },
+        "cid": 78
     },
     "pyke": {
         "positions": {
@@ -1850,7 +1939,8 @@
             "mid": 8,
             "bottom": 4,
             "support": 9
-        }
+        },
+        "cid": 555
     },
     "qiyana": {
         "positions": {
@@ -1870,7 +1960,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 4
-        }
+        },
+        "cid": 246
     },
     "quinn": {
         "positions": {
@@ -1890,7 +1981,8 @@
             "mid": 7,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 133
     },
     "rakan": {
         "positions": {
@@ -1910,7 +2002,8 @@
             "mid": 5,
             "bottom": 3,
             "support": 9
-        }
+        },
+        "cid": 497
     },
     "rammus": {
         "positions": {
@@ -1930,7 +2023,8 @@
             "mid": 5,
             "bottom": 2,
             "support": 4
-        }
+        },
+        "cid": 33
     },
     "rek'sai": {
         "positions": {
@@ -1953,7 +2047,8 @@
             "mid": 4,
             "bottom": 4,
             "support": 5
-        }
+        },
+        "cid": 421
     },
     "rell": {
         "positions": {
@@ -1973,7 +2068,8 @@
             "mid": 3,
             "bottom": 3,
             "support": 9
-        }
+        },
+        "cid": 526
     },
     "renekton": {
         "positions": {
@@ -1993,7 +2089,8 @@
             "mid": 6,
             "bottom": 3,
             "support": 1
-        }
+        },
+        "cid": 58
     },
     "rengar": {
         "positions": {
@@ -2013,7 +2110,8 @@
             "mid": 7,
             "bottom": 3,
             "support": 5
-        }
+        },
+        "cid": 107
     },
     "riven": {
         "positions": {
@@ -2033,7 +2131,8 @@
             "mid": 5,
             "bottom": 3,
             "support": 2
-        }
+        },
+        "cid": 92
     },
     "rumble": {
         "positions": {
@@ -2053,7 +2152,8 @@
             "mid": 9,
             "bottom": 5,
             "support": 3
-        }
+        },
+        "cid": 68
     },
     "ryze": {
         "positions": {
@@ -2073,7 +2173,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 5
-        }
+        },
+        "cid": 13
     },
     "samira": {
         "positions": {
@@ -2093,7 +2194,8 @@
             "mid": 6,
             "bottom": 9,
             "support": 3
-        }
+        },
+        "cid": 360
     },
     "sejuani": {
         "positions": {
@@ -2113,7 +2215,8 @@
             "mid": 3,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 113
     },
     "senna": {
         "positions": {
@@ -2133,7 +2236,8 @@
             "mid": 6,
             "bottom": 8,
             "support": 9
-        }
+        },
+        "cid": 235
     },
     "seraphine": {
         "positions": {
@@ -2154,7 +2258,8 @@
             "mid": 8,
             "bottom": 6,
             "support": 8
-        }
+        },
+        "cid": 147
     },
     "sett": {
         "positions": {
@@ -2174,7 +2279,8 @@
             "mid": 6,
             "bottom": 3,
             "support": 8
-        }
+        },
+        "cid": 875
     },
     "shaco": {
         "positions": {
@@ -2195,7 +2301,8 @@
             "mid": 4,
             "bottom": 5,
             "support": 8
-        }
+        },
+        "cid": 35
     },
     "shen": {
         "positions": {
@@ -2215,7 +2322,8 @@
             "mid": 5,
             "bottom": 2,
             "support": 6
-        }
+        },
+        "cid": 98
     },
     "shyvana": {
         "positions": {
@@ -2235,7 +2343,8 @@
             "mid": 6,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 102
     },
     "singed": {
         "positions": {
@@ -2255,7 +2364,8 @@
             "mid": 5,
             "bottom": 4,
             "support": 7
-        }
+        },
+        "cid": 27
     },
     "sion": {
         "positions": {
@@ -2275,7 +2385,8 @@
             "mid": 5,
             "bottom": 3,
             "support": 2
-        }
+        },
+        "cid": 14
     },
     "sivir": {
         "positions": {
@@ -2295,7 +2406,8 @@
             "mid": 5,
             "bottom": 9,
             "support": 3
-        }
+        },
+        "cid": 15
     },
     "skarner": {
         "positions": {
@@ -2315,7 +2427,8 @@
             "mid": 3,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 72
     },
     "sona": {
         "positions": {
@@ -2335,7 +2448,8 @@
             "mid": 2,
             "bottom": 1,
             "support": 9
-        }
+        },
+        "cid": 37
     },
     "soraka": {
         "positions": {
@@ -2356,7 +2470,8 @@
             "mid": 7,
             "bottom": 2,
             "support": 9
-        }
+        },
+        "cid": 16
     },
     "swain": {
         "positions": {
@@ -2376,7 +2491,8 @@
             "mid": 9,
             "bottom": 6,
             "support": 8
-        }
+        },
+        "cid": 50
     },
     "sylas": {
         "positions": {
@@ -2396,7 +2512,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 4
-        }
+        },
+        "cid": 517
     },
     "syndra": {
         "positions": {
@@ -2416,7 +2533,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 7
-        }
+        },
+        "cid": 134
     },
     "tahm kench": {
         "positions": {
@@ -2439,7 +2557,8 @@
             "mid": 5,
             "bottom": 3,
             "support": 8
-        }
+        },
+        "cid": 223
     },
     "taliyah": {
         "positions": {
@@ -2459,7 +2578,8 @@
             "mid": 6,
             "bottom": 4,
             "support": 5
-        }
+        },
+        "cid": 163
     },
     "talon": {
         "positions": {
@@ -2479,7 +2599,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 2
-        }
+        },
+        "cid": 91
     },
     "taric": {
         "positions": {
@@ -2499,7 +2620,8 @@
             "mid": 5,
             "bottom": 3,
             "support": 9
-        }
+        },
+        "cid": 44
     },
     "teemo": {
         "positions": {
@@ -2521,7 +2643,8 @@
             "mid": 5,
             "bottom": 2,
             "support": 7
-        }
+        },
+        "cid": 17
     },
     "thresh": {
         "positions": {
@@ -2541,7 +2664,8 @@
             "mid": 6,
             "bottom": 3,
             "support": 9
-        }
+        },
+        "cid": 412
     },
     "tristana": {
         "positions": {
@@ -2563,7 +2687,8 @@
             "mid": 8,
             "bottom": 9,
             "support": 4
-        }
+        },
+        "cid": 18
     },
     "trundle": {
         "positions": {
@@ -2583,7 +2708,8 @@
             "mid": 3,
             "bottom": 3,
             "support": 4
-        }
+        },
+        "cid": 48
     },
     "tryndamere": {
         "positions": {
@@ -2605,7 +2731,8 @@
             "mid": 6,
             "bottom": 3,
             "support": 2
-        }
+        },
+        "cid": 23
     },
     "twisted fate": {
         "positions": {
@@ -2628,7 +2755,8 @@
             "mid": 0,
             "bottom": 3,
             "support": 4
-        }
+        },
+        "cid": 4
     },
     "twitch": {
         "positions": {
@@ -2649,7 +2777,8 @@
             "mid": 5,
             "bottom": 9,
             "support": 4
-        }
+        },
+        "cid": 29
     },
     "udyr": {
         "positions": {
@@ -2669,7 +2798,8 @@
             "mid": 4,
             "bottom": 2,
             "support": 5
-        }
+        },
+        "cid": 77
     },
     "urgot": {
         "positions": {
@@ -2691,7 +2821,8 @@
             "mid": 4,
             "bottom": 2,
             "support": 4
-        }
+        },
+        "cid": 6
     },
     "varus": {
         "positions": {
@@ -2711,7 +2842,8 @@
             "mid": 6,
             "bottom": 9,
             "support": 4
-        }
+        },
+        "cid": 110
     },
     "vayne": {
         "positions": {
@@ -2731,7 +2863,8 @@
             "mid": 5,
             "bottom": 9,
             "support": 4
-        }
+        },
+        "cid": 67
     },
     "veigar": {
         "positions": {
@@ -2751,7 +2884,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 7
-        }
+        },
+        "cid": 45
     },
     "vel'koz": {
         "positions": {
@@ -2774,7 +2908,8 @@
             "mid": 6,
             "bottom": 4,
             "support": 9
-        }
+        },
+        "cid": 161
     },
     "vi": {
         "positions": {
@@ -2794,7 +2929,8 @@
             "mid": 3,
             "bottom": 3,
             "support": 4
-        }
+        },
+        "cid": 254
     },
     "viego": {
         "positions": {
@@ -2814,7 +2950,8 @@
             "mid": 7,
             "bottom": 5,
             "support": 5
-        }
+        },
+        "cid": 234
     },
     "viktor": {
         "positions": {
@@ -2834,7 +2971,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 5
-        }
+        },
+        "cid": 112
     },
     "vladimir": {
         "positions": {
@@ -2855,7 +2993,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 5
-        }
+        },
+        "cid": 8
     },
     "volibear": {
         "positions": {
@@ -2875,7 +3014,8 @@
             "mid": 4,
             "bottom": 3,
             "support": 2
-        }
+        },
+        "cid": 106
     },
     "warwick": {
         "positions": {
@@ -2895,7 +3035,8 @@
             "mid": 4,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 19
     },
     "wukong": {
         "positions": {
@@ -2915,7 +3056,8 @@
             "mid": 5,
             "bottom": 3,
             "support": 2
-        }
+        },
+        "cid": 62
     },
     "xayah": {
         "positions": {
@@ -2935,7 +3077,8 @@
             "mid": 8,
             "bottom": 9,
             "support": 5
-        }
+        },
+        "cid": 498
     },
     "xerath": {
         "positions": {
@@ -2955,7 +3098,8 @@
             "mid": 9,
             "bottom": 6,
             "support": 8
-        }
+        },
+        "cid": 101
     },
     "xin zhao": {
         "positions": {
@@ -2978,7 +3122,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 4
-        }
+        },
+        "cid": 5
     },
     "yasuo": {
         "positions": {
@@ -2999,7 +3144,8 @@
             "mid": 9,
             "bottom": 8,
             "support": 3
-        }
+        },
+        "cid": 157
     },
     "yone": {
         "positions": {
@@ -3019,7 +3165,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 2
-        }
+        },
+        "cid": 777
     },
     "yorick": {
         "positions": {
@@ -3039,7 +3186,8 @@
             "mid": 4,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 83
     },
     "yuumi": {
         "positions": {
@@ -3060,7 +3208,8 @@
             "mid": 7,
             "bottom": 3,
             "support": 9
-        }
+        },
+        "cid": 350
     },
     "zac": {
         "positions": {
@@ -3080,7 +3229,8 @@
             "mid": 6,
             "bottom": 3,
             "support": 6
-        }
+        },
+        "cid": 154
     },
     "zed": {
         "positions": {
@@ -3100,7 +3250,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 3
-        }
+        },
+        "cid": 238
     },
     "ziggs": {
         "positions": {
@@ -3120,7 +3271,8 @@
             "mid": 9,
             "bottom": 7,
             "support": 7
-        }
+        },
+        "cid": 115
     },
     "zilean": {
         "positions": {
@@ -3140,7 +3292,8 @@
             "mid": 5,
             "bottom": 3,
             "support": 9
-        }
+        },
+        "cid": 26
     },
     "zoe": {
         "positions": {
@@ -3161,7 +3314,8 @@
             "mid": 9,
             "bottom": 3,
             "support": 7
-        }
+        },
+        "cid": 142
     },
     "zyra": {
         "positions": {
@@ -3181,6 +3335,7 @@
             "mid": 8,
             "bottom": 4,
             "support": 9
-        }
+        },
+        "cid": 143
     }
 }

@@ -5,7 +5,9 @@ from datetime import datetime
 import re
 import random
 import os
-from helper import get_champ_file, get_data_file, get_data_dir
+from data_handler import alias_to_champid, call_input, create_list
+from data_handler import get_list_attrib, get_champ_attrib
+from data_handler import get_champ_ids
 
 class Picker:
     def __init__(self, ctx):
@@ -466,11 +468,7 @@ class Picker:
             if list_as == 'champ_data' or list_as == 'game_data':
                 sys.stderr.write("Invalid list name-- would overwrite a necessary program file.\n")
                 sys.exit(1)
-            list_file = list_dir / list_as
-            if not list_file.exists():
-                list_file.touch()
-            with open(list_file, 'w') as file:
-                json.dump(args_list, file, indent=4)
+            await create_list(self.ctx, list_as, args_list)
         try:
             if team_mode:
                 exclude_champs = None
