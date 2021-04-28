@@ -1,15 +1,19 @@
 from pathlib import Path, PurePosixPath, PureWindowsPath
 from platform import uname
 import os
-appdata = PureWindowsPath(os.getenv('APPDATA'))
 
-if 'Microsoft' in uname().release:
+if 'Microsoft' in uname().release and False:
+    appdata = PureWindowsPath(os.getenv('APPDATA'))
     if Path.cwd().drive == "":
         appdata = Path(appdata.relative_to(Path(appdata.drive)/'\\'))
         appdata = Path('/mnt/c/') / appdata
+else:
+    appdata = Path(__file__).parent.parent / 'stored-data'
+    if not appdata.exists():
+        appdata.mkdir()
 
 
-data_dir = Path(appdata) / 'league-picker'
+data_dir = Path(appdata)
 
 if not data_dir.exists():
     data_dir.mkdir()
