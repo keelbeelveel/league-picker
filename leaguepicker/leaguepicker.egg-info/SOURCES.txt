@@ -1,0 +1,5 @@
+setup.py
+leaguepicker.egg-info/PKG-INFO
+leaguepicker.egg-info/SOURCES.txt
+leaguepicker.egg-info/dependency_links.txt
+leaguepicker.egg-info/top_level.txt

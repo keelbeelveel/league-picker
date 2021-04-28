@@ -1,0 +1,3186 @@
+{
+    "aatrox": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "aatrox"
+        ],
+        "displayname": "Aatrox",
+        "feasibility": {
+            "top": 9,
+            "jungle": 6,
+            "mid": 3,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "ahri": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "ahri"
+        ],
+        "displayname": "Ahri",
+        "feasibility": {
+            "top": 5,
+            "jungle": 2,
+            "mid": 9,
+            "bottom": 5,
+            "support": 7
+        }
+    },
+    "akali": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "akali"
+        ],
+        "displayname": "Akali",
+        "feasibility": {
+            "top": 8,
+            "jungle": 0,
+            "mid": 9,
+            "bottom": 4,
+            "support": 2
+        }
+    },
+    "alistar": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "alistar"
+        ],
+        "displayname": "Alistar",
+        "feasibility": {
+            "top": 3,
+            "jungle": 3,
+            "mid": 5,
+            "bottom": 3,
+            "support": 9
+        }
+    },
+    "amumu": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "amumu"
+        ],
+        "displayname": "Amumu",
+        "feasibility": {
+            "top": 6,
+            "jungle": 9,
+            "mid": 4,
+            "bottom": 3,
+            "support": 4
+        }
+    },
+    "anivia": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "anivia"
+        ],
+        "displayname": "Anivia",
+        "feasibility": {
+            "top": 5,
+            "jungle": 4,
+            "mid": 9,
+            "bottom": 4,
+            "support": 4
+        }
+    },
+    "annie": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "annie"
+        ],
+        "displayname": "Annie",
+        "feasibility": {
+            "top": 4,
+            "jungle": 3,
+            "mid": 9,
+            "bottom": 5,
+            "support": 7
+        }
+    },
+    "aphelios": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": true,
+            "support": false
+        },
+        "aliases": [
+            "aphelios"
+        ],
+        "displayname": "Aphelios",
+        "feasibility": {
+            "top": 5,
+            "jungle": 2,
+            "mid": 6,
+            "bottom": 9,
+            "support": 4
+        }
+    },
+    "ashe": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": true,
+            "support": true
+        },
+        "aliases": [
+            "ashe"
+        ],
+        "displayname": "Ashe",
+        "feasibility": {
+            "top": 6,
+            "jungle": 0,
+            "mid": 5,
+            "bottom": 9,
+            "support": 7
+        }
+    },
+    "aurelion sol": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": true,
+            "support": true
+        },
+        "aliases": [
+            "aurelion",
+            "sol",
+            "as",
+            "aurelionsol",
+            "asol",
+            "a sol"
+        ],
+        "displayname": "Aurelion Sol",
+        "feasibility": {
+            "top": 4,
+            "jungle": 4,
+            "mid": 9,
+            "bottom": 7,
+            "support": 5
+        }
+    },
+    "azir": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "azir"
+        ],
+        "displayname": "Azir",
+        "feasibility": {
+            "top": 3,
+            "jungle": 3,
+            "mid": 9,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "bard": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "bard"
+        ],
+        "displayname": "Bard",
+        "feasibility": {
+            "top": 3,
+            "jungle": 4,
+            "mid": 6,
+            "bottom": 3,
+            "support": 9
+        }
+    },
+    "blitzcrank": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "blitzcrank",
+            "blitz",
+            "crank"
+        ],
+        "displayname": "Blitzcrank",
+        "feasibility": {
+            "top": 3,
+            "jungle": 5,
+            "mid": 6,
+            "bottom": 3,
+            "support": 9
+        }
+    },
+    "brand": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": true,
+            "support": true
+        },
+        "aliases": [
+            "brand"
+        ],
+        "displayname": "Brand",
+        "feasibility": {
+            "top": 6,
+            "jungle": 3,
+            "mid": 8,
+            "bottom": 6,
+            "support": 9
+        }
+    },
+    "braum": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "braum"
+        ],
+        "displayname": "Braum",
+        "feasibility": {
+            "top": 3,
+            "jungle": 3,
+            "mid": 3,
+            "bottom": 3,
+            "support": 9
+        }
+    },
+    "caitlyn": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": true,
+            "bottom": true,
+            "support": false
+        },
+        "aliases": [
+            "caitlyn",
+            "cait"
+        ],
+        "displayname": "Caitlyn",
+        "feasibility": {
+            "top": 6,
+            "jungle": 0,
+            "mid": 7,
+            "bottom": 9,
+            "support": 5
+        }
+    },
+    "camille": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "camille"
+        ],
+        "displayname": "Camille",
+        "feasibility": {
+            "top": 9,
+            "jungle": 4,
+            "mid": 7,
+            "bottom": 3,
+            "support": 7
+        }
+    },
+    "cassiopeia": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "cassiopeia",
+            "cass"
+        ],
+        "displayname": "Cassiopeia",
+        "feasibility": {
+            "top": 3,
+            "jungle": 3,
+            "mid": 9,
+            "bottom": 3,
+            "support": 7
+        }
+    },
+    "cho'gath": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "chogath",
+            "cho",
+            "gath",
+            "cg"
+        ],
+        "displayname": "Cho'Gath",
+        "feasibility": {
+            "top": 9,
+            "jungle": 8,
+            "mid": 4,
+            "bottom": 2,
+            "support": 3
+        }
+    },
+    "corki": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "corki"
+        ],
+        "displayname": "Corki",
+        "feasibility": {
+            "top": 5,
+            "jungle": 3,
+            "mid": 9,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "darius": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "darius"
+        ],
+        "displayname": "Darius",
+        "feasibility": {
+            "top": 9,
+            "jungle": 8,
+            "mid": 5,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "diana": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": true,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "diana"
+        ],
+        "displayname": "Diana",
+        "feasibility": {
+            "top": 7,
+            "jungle": 8,
+            "mid": 9,
+            "bottom": 3,
+            "support": 6
+        }
+    },
+    "draven": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": true,
+            "support": false
+        },
+        "aliases": [
+            "draven"
+        ],
+        "displayname": "Draven",
+        "feasibility": {
+            "top": 5,
+            "jungle": 3,
+            "mid": 5,
+            "bottom": 9,
+            "support": 3
+        }
+    },
+    "dr. mundo": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "dr",
+            "mundo",
+            "dm",
+            "drmundo"
+        ],
+        "displayname": "Dr. Mundo",
+        "feasibility": {
+            "top": 8,
+            "jungle": 9,
+            "mid": 5,
+            "bottom": 4,
+            "support": 1
+        }
+    },
+    "ekko": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "ekko"
+        ],
+        "displayname": "Ekko",
+        "feasibility": {
+            "top": 7,
+            "jungle": 8,
+            "mid": 9,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "elise": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "elise"
+        ],
+        "displayname": "Elise",
+        "feasibility": {
+            "top": 3,
+            "jungle": 9,
+            "mid": 6,
+            "bottom": 3,
+            "support": 6
+        }
+    },
+    "evelynn": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "evelynn",
+            "eve"
+        ],
+        "displayname": "Evelynn",
+        "feasibility": {
+            "top": 7,
+            "jungle": 9,
+            "mid": 7,
+            "bottom": 3,
+            "support": 5
+        }
+    },
+    "ezreal": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": true,
+            "support": false
+        },
+        "aliases": [
+            "ezreal",
+            "ez",
+            "ezzy"
+        ],
+        "displayname": "Ezreal",
+        "feasibility": {
+            "top": 5,
+            "jungle": 0,
+            "mid": 7,
+            "bottom": 9,
+            "support": 3
+        }
+    },
+    "fiddlesticks": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "fiddlesticks",
+            "fiddle"
+        ],
+        "displayname": "Fiddlesticks",
+        "feasibility": {
+            "top": 4,
+            "jungle": 9,
+            "mid": 5,
+            "bottom": 3,
+            "support": 4
+        }
+    },
+    "fiora": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "fiora"
+        ],
+        "displayname": "Fiora",
+        "feasibility": {
+            "top": 9,
+            "jungle": 3,
+            "mid": 7,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "fizz": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "fizz"
+        ],
+        "displayname": "Fizz",
+        "feasibility": {
+            "top": 4,
+            "jungle": 2,
+            "mid": 9,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "galio": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "galio"
+        ],
+        "displayname": "Galio",
+        "feasibility": {
+            "top": 6,
+            "jungle": 3,
+            "mid": 9,
+            "bottom": 3,
+            "support": 8
+        }
+    },
+    "gangplank": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "gangplank"
+        ],
+        "displayname": "Gangplank",
+        "feasibility": {
+            "top": 9,
+            "jungle": 3,
+            "mid": 5,
+            "bottom": 6,
+            "support": 4
+        }
+    },
+    "garen": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "garen"
+        ],
+        "displayname": "Garen",
+        "feasibility": {
+            "top": 9,
+            "jungle": 7,
+            "mid": 7,
+            "bottom": 3,
+            "support": 0
+        }
+    },
+    "gnar": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "gnar"
+        ],
+        "displayname": "Gnar",
+        "feasibility": {
+            "top": 9,
+            "jungle": 3,
+            "mid": 5,
+            "bottom": 6,
+            "support": 0
+        }
+    },
+    "gragas": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": true,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "gragas"
+        ],
+        "displayname": "Gragas",
+        "feasibility": {
+            "top": 3,
+            "jungle": 7,
+            "mid": 3,
+            "bottom": 3,
+            "support": 7
+        }
+    },
+    "graves": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "graves"
+        ],
+        "displayname": "Graves",
+        "feasibility": {
+            "top": 3,
+            "jungle": 9,
+            "mid": 6,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "gwen": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": true,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "gwen"
+        ],
+        "displayname": "Gwen",
+        "feasibility": {
+            "top": 9,
+            "jungle": 7,
+            "mid": 8,
+            "bottom": 3,
+            "support": 4
+        }
+    },
+    "hecarim": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "hecarim",
+            "hec",
+            "horse"
+        ],
+        "displayname": "Hecarim",
+        "feasibility": {
+            "top": 4,
+            "jungle": 9,
+            "mid": 4,
+            "bottom": 0,
+            "support": 4
+        }
+    },
+    "heimerdinger": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": true,
+            "bottom": true,
+            "support": true
+        },
+        "aliases": [
+            "heimerdinger",
+            "heimer"
+        ],
+        "displayname": "Heimerdinger",
+        "feasibility": {
+            "top": 8,
+            "jungle": 2,
+            "mid": 9,
+            "bottom": 6,
+            "support": 7
+        }
+    },
+    "illaoi": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "illaoi"
+        ],
+        "displayname": "Illaoi",
+        "feasibility": {
+            "top": 9,
+            "jungle": 3,
+            "mid": 7,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "irelia": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "irelia"
+        ],
+        "displayname": "Irelia",
+        "feasibility": {
+            "top": 9,
+            "jungle": 4,
+            "mid": 9,
+            "bottom": 3,
+            "support": 4
+        }
+    },
+    "ivern": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "ivern"
+        ],
+        "displayname": "Ivern",
+        "feasibility": {
+            "top": 3,
+            "jungle": 9,
+            "mid": 4,
+            "bottom": 4,
+            "support": 4
+        }
+    },
+    "janna": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "janna"
+        ],
+        "displayname": "Janna",
+        "feasibility": {
+            "top": 4,
+            "jungle": 1,
+            "mid": 7,
+            "bottom": 7,
+            "support": 9
+        }
+    },
+    "jarvan iv": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "jarvan",
+            "iv",
+            "ji",
+            "jarvaniv",
+            "jarvan 4"
+        ],
+        "displayname": "Jarvan IV",
+        "feasibility": {
+            "top": 6,
+            "jungle": 6,
+            "mid": 6,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "jax": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "jax"
+        ],
+        "displayname": "Jax",
+        "feasibility": {
+            "top": 9,
+            "jungle": 9,
+            "mid": 8,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "jayce": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "jayce"
+        ],
+        "displayname": "Jayce",
+        "feasibility": {
+            "top": 9,
+            "jungle": 5,
+            "mid": 6,
+            "bottom": 6,
+            "support": 5
+        }
+    },
+    "jhin": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": true,
+            "support": false
+        },
+        "aliases": [
+            "jhin"
+        ],
+        "displayname": "Jhin",
+        "feasibility": {
+            "top": 6,
+            "jungle": 4,
+            "mid": 6,
+            "bottom": 9,
+            "support": 2
+        }
+    },
+    "jinx": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": true,
+            "support": false
+        },
+        "aliases": [
+            "jinx"
+        ],
+        "displayname": "Jinx",
+        "feasibility": {
+            "top": 3,
+            "jungle": 3,
+            "mid": 5,
+            "bottom": 9,
+            "support": 3
+        }
+    },
+    "kai'sa": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": true,
+            "support": false
+        },
+        "aliases": [
+            "kaisa",
+            "kai",
+            "sa",
+            "ks"
+        ],
+        "displayname": "Kai'Sa",
+        "feasibility": {
+            "top": 3,
+            "jungle": 1,
+            "mid": 5,
+            "bottom": 9,
+            "support": 3
+        }
+    },
+    "kalista": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": true,
+            "support": false
+        },
+        "aliases": [
+            "kalista"
+        ],
+        "displayname": "Kalista",
+        "feasibility": {
+            "top": 3,
+            "jungle": 3,
+            "mid": 5,
+            "bottom": 9,
+            "support": 3
+        }
+    },
+    "karma": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "karma"
+        ],
+        "displayname": "Karma",
+        "feasibility": {
+            "top": 5,
+            "jungle": 5,
+            "mid": 5,
+            "bottom": 5,
+            "support": 5
+        }
+    },
+    "karthus": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "karthus"
+        ],
+        "displayname": "Karthus",
+        "feasibility": {
+            "top": 3,
+            "jungle": 9,
+            "mid": 7,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "kassadin": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "kassadin",
+            "kass",
+            "kas"
+        ],
+        "displayname": "Kassadin",
+        "feasibility": {
+            "top": 5,
+            "jungle": 3,
+            "mid": 9,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "katarina": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "katarina"
+        ],
+        "displayname": "Katarina",
+        "feasibility": {
+            "top": 5,
+            "jungle": 2,
+            "mid": 9,
+            "bottom": 4,
+            "support": 2
+        }
+    },
+    "kayle": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "kayle"
+        ],
+        "displayname": "Kayle",
+        "feasibility": {
+            "top": 9,
+            "jungle": 3,
+            "mid": 8,
+            "bottom": 7,
+            "support": 3
+        }
+    },
+    "kayn": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "kayn"
+        ],
+        "displayname": "Kayn",
+        "feasibility": {
+            "top": 4,
+            "jungle": 9,
+            "mid": 4,
+            "bottom": 2,
+            "support": 0
+        }
+    },
+    "kennen": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "kennen"
+        ],
+        "displayname": "Kennen",
+        "feasibility": {
+            "top": 9,
+            "jungle": 3,
+            "mid": 3,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "kha'zix": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "khazix",
+            "kha",
+            "zix",
+            "kz"
+        ],
+        "displayname": "Kha'Zix",
+        "feasibility": {
+            "top": 4,
+            "jungle": 9,
+            "mid": 4,
+            "bottom": 1,
+            "support": 3
+        }
+    },
+    "kindred": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": true,
+            "support": false
+        },
+        "aliases": [
+            "kindred"
+        ],
+        "displayname": "Kindred",
+        "feasibility": {
+            "top": 5,
+            "jungle": 9,
+            "mid": 6,
+            "bottom": 8,
+            "support": 3
+        }
+    },
+    "kled": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "kled"
+        ],
+        "displayname": "Kled",
+        "feasibility": {
+            "top": 9,
+            "jungle": 3,
+            "mid": 3,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "kog'maw": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": true,
+            "support": false
+        },
+        "aliases": [
+            "kogmaw",
+            "kog",
+            "maw",
+            "km"
+        ],
+        "displayname": "Kog'Maw",
+        "feasibility": {
+            "top": 3,
+            "jungle": 3,
+            "mid": 3,
+            "bottom": 9,
+            "support": 3
+        }
+    },
+    "leblanc": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "leblanc"
+        ],
+        "displayname": "Leblanc",
+        "feasibility": {
+            "top": 6,
+            "jungle": 0,
+            "mid": 9,
+            "bottom": 3,
+            "support": 4
+        }
+    },
+    "lee sin": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "lee",
+            "sin",
+            "ls",
+            "leesin"
+        ],
+        "displayname": "Lee Sin",
+        "feasibility": {
+            "top": 5,
+            "jungle": 9,
+            "mid": 8,
+            "bottom": 3,
+            "support": 5
+        }
+    },
+    "leona": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "leona"
+        ],
+        "displayname": "Leona",
+        "feasibility": {
+            "top": 3,
+            "jungle": 3,
+            "mid": 3,
+            "bottom": 3,
+            "support": 9
+        }
+    },
+    "lillia": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "lillia"
+        ],
+        "displayname": "Lillia",
+        "feasibility": {
+            "top": 5,
+            "jungle": 9,
+            "mid": 7,
+            "bottom": 3,
+            "support": 5
+        }
+    },
+    "lissandra": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "lissandra",
+            "liss"
+        ],
+        "displayname": "Lissandra",
+        "feasibility": {
+            "top": 3,
+            "jungle": 3,
+            "mid": 9,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "lucian": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": true,
+            "support": true
+        },
+        "aliases": [
+            "lucian"
+        ],
+        "displayname": "Lucian",
+        "feasibility": {
+            "top": 6,
+            "jungle": 3,
+            "mid": 9,
+            "bottom": 8,
+            "support": 7
+        }
+    },
+    "lulu": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "lulu"
+        ],
+        "displayname": "Lulu",
+        "feasibility": {
+            "top": 7,
+            "jungle": 0,
+            "mid": 4,
+            "bottom": 5,
+            "support": 9
+        }
+    },
+    "lux": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "lux"
+        ],
+        "displayname": "Lux",
+        "feasibility": {
+            "top": 5,
+            "jungle": 2,
+            "mid": 9,
+            "bottom": 6,
+            "support": 8
+        }
+    },
+    "malphite": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "malphite"
+        ],
+        "displayname": "Malphite",
+        "feasibility": {
+            "top": 9,
+            "jungle": 3,
+            "mid": 3,
+            "bottom": 3,
+            "support": 6
+        }
+    },
+    "malzahar": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "malzahar"
+        ],
+        "displayname": "Malzahar",
+        "feasibility": {
+            "top": 5,
+            "jungle": 0,
+            "mid": 9,
+            "bottom": 4,
+            "support": 6
+        }
+    },
+    "maokai": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "maokai"
+        ],
+        "displayname": "Maokai",
+        "feasibility": {
+            "top": 3,
+            "jungle": 3,
+            "mid": 3,
+            "bottom": 3,
+            "support": 9
+        }
+    },
+    "master yi": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "master",
+            "yi",
+            "my",
+            "masteryi"
+        ],
+        "displayname": "Master Yi",
+        "feasibility": {
+            "top": 4,
+            "jungle": 9,
+            "mid": 4,
+            "bottom": 5,
+            "support": 0
+        }
+    },
+    "miss fortune": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": true,
+            "support": false
+        },
+        "aliases": [
+            "miss",
+            "fortune",
+            "mf",
+            "missfortune"
+        ],
+        "displayname": "Miss Fortune",
+        "feasibility": {
+            "top": 4,
+            "jungle": 0,
+            "mid": 5,
+            "bottom": 9,
+            "support": 0
+        }
+    },
+    "mordekaiser": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "mordekaiser"
+        ],
+        "displayname": "Mordekaiser",
+        "feasibility": {
+            "top": 9,
+            "jungle": 8,
+            "mid": 7,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "morgana": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": true,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "morgana",
+            "morg"
+        ],
+        "displayname": "Morgana",
+        "feasibility": {
+            "top": 6,
+            "jungle": 7,
+            "mid": 8,
+            "bottom": 6,
+            "support": 9
+        }
+    },
+    "nami": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "nami"
+        ],
+        "displayname": "Nami",
+        "feasibility": {
+            "top": 3,
+            "jungle": 0,
+            "mid": 5,
+            "bottom": 3,
+            "support": 9
+        }
+    },
+    "nasus": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "nasus"
+        ],
+        "displayname": "Nasus",
+        "feasibility": {
+            "top": 9,
+            "jungle": 7,
+            "mid": 6,
+            "bottom": 4,
+            "support": 2
+        }
+    },
+    "nautilus": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "nautilus",
+            "naut"
+        ],
+        "displayname": "Nautilus",
+        "feasibility": {
+            "top": 4,
+            "jungle": 0,
+            "mid": 4,
+            "bottom": 3,
+            "support": 9
+        }
+    },
+    "neeko": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": true,
+            "support": true
+        },
+        "aliases": [
+            "neeko"
+        ],
+        "displayname": "Neeko",
+        "feasibility": {
+            "top": 4,
+            "jungle": 2,
+            "mid": 9,
+            "bottom": 7,
+            "support": 8
+        }
+    },
+    "nidalee": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": true,
+            "bottom": true,
+            "support": true
+        },
+        "aliases": [
+            "nidalee",
+            "nid"
+        ],
+        "displayname": "Nidalee",
+        "feasibility": {
+            "top": 4,
+            "jungle": 9,
+            "mid": 5,
+            "bottom": 6,
+            "support": 5
+        }
+    },
+    "nocturne": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "nocturne"
+        ],
+        "displayname": "Nocturne",
+        "feasibility": {
+            "top": 7,
+            "jungle": 9,
+            "mid": 7,
+            "bottom": 3,
+            "support": 5
+        }
+    },
+    "nunu & willump": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "nunu",
+            "willump",
+            "nw",
+            "nunuwillump"
+        ],
+        "displayname": "Nunu & Willump",
+        "feasibility": {
+            "top": 4,
+            "jungle": 9,
+            "mid": 6,
+            "bottom": 1,
+            "support": 3
+        }
+    },
+    "olaf": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "olaf"
+        ],
+        "displayname": "Olaf",
+        "feasibility": {
+            "top": 3,
+            "jungle": 9,
+            "mid": 3,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "orianna": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "orianna"
+        ],
+        "displayname": "Orianna",
+        "feasibility": {
+            "top": 5,
+            "jungle": 2,
+            "mid": 9,
+            "bottom": 3,
+            "support": 6
+        }
+    },
+    "ornn": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "ornn"
+        ],
+        "displayname": "Ornn",
+        "feasibility": {
+            "top": 9,
+            "jungle": 4,
+            "mid": 5,
+            "bottom": 1,
+            "support": 4
+        }
+    },
+    "pantheon": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "pantheon"
+        ],
+        "displayname": "Pantheon",
+        "feasibility": {
+            "top": 6,
+            "jungle": 7,
+            "mid": 9,
+            "bottom": 3,
+            "support": 8
+        }
+    },
+    "poppy": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "poppy"
+        ],
+        "displayname": "Poppy",
+        "feasibility": {
+            "top": 9,
+            "jungle": 8,
+            "mid": 4,
+            "bottom": 3,
+            "support": 5
+        }
+    },
+    "pyke": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "pyke"
+        ],
+        "displayname": "Pyke",
+        "feasibility": {
+            "top": 3,
+            "jungle": 0,
+            "mid": 8,
+            "bottom": 4,
+            "support": 9
+        }
+    },
+    "qiyana": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "qiyana"
+        ],
+        "displayname": "Qiyana",
+        "feasibility": {
+            "top": 4,
+            "jungle": 7,
+            "mid": 9,
+            "bottom": 3,
+            "support": 4
+        }
+    },
+    "quinn": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "quinn"
+        ],
+        "displayname": "Quinn",
+        "feasibility": {
+            "top": 9,
+            "jungle": 8,
+            "mid": 7,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "rakan": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "rakan"
+        ],
+        "displayname": "Rakan",
+        "feasibility": {
+            "top": 3,
+            "jungle": 1,
+            "mid": 5,
+            "bottom": 3,
+            "support": 9
+        }
+    },
+    "rammus": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "rammus"
+        ],
+        "displayname": "Rammus",
+        "feasibility": {
+            "top": 4,
+            "jungle": 9,
+            "mid": 5,
+            "bottom": 2,
+            "support": 4
+        }
+    },
+    "rek'sai": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "reksai",
+            "rek",
+            "sai",
+            "rs"
+        ],
+        "displayname": "Rek'Sai",
+        "feasibility": {
+            "top": 3,
+            "jungle": 9,
+            "mid": 4,
+            "bottom": 4,
+            "support": 5
+        }
+    },
+    "rell": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "rell"
+        ],
+        "displayname": "Rell",
+        "feasibility": {
+            "top": 3,
+            "jungle": 3,
+            "mid": 3,
+            "bottom": 3,
+            "support": 9
+        }
+    },
+    "renekton": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "renekton"
+        ],
+        "displayname": "Renekton",
+        "feasibility": {
+            "top": 9,
+            "jungle": 6,
+            "mid": 6,
+            "bottom": 3,
+            "support": 1
+        }
+    },
+    "rengar": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "rengar"
+        ],
+        "displayname": "Rengar",
+        "feasibility": {
+            "top": 7,
+            "jungle": 9,
+            "mid": 7,
+            "bottom": 3,
+            "support": 5
+        }
+    },
+    "riven": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "riven"
+        ],
+        "displayname": "Riven",
+        "feasibility": {
+            "top": 9,
+            "jungle": 7,
+            "mid": 5,
+            "bottom": 3,
+            "support": 2
+        }
+    },
+    "rumble": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "rumble"
+        ],
+        "displayname": "Rumble",
+        "feasibility": {
+            "top": 9,
+            "jungle": 4,
+            "mid": 9,
+            "bottom": 5,
+            "support": 3
+        }
+    },
+    "ryze": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "ryze"
+        ],
+        "displayname": "Ryze",
+        "feasibility": {
+            "top": 6,
+            "jungle": 3,
+            "mid": 9,
+            "bottom": 3,
+            "support": 5
+        }
+    },
+    "samira": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": true,
+            "support": false
+        },
+        "aliases": [
+            "samira"
+        ],
+        "displayname": "Samira",
+        "feasibility": {
+            "top": 5,
+            "jungle": 2,
+            "mid": 6,
+            "bottom": 9,
+            "support": 3
+        }
+    },
+    "sejuani": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "sejuani"
+        ],
+        "displayname": "Sejuani",
+        "feasibility": {
+            "top": 3,
+            "jungle": 9,
+            "mid": 3,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "senna": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": true,
+            "support": true
+        },
+        "aliases": [
+            "senna"
+        ],
+        "displayname": "Senna",
+        "feasibility": {
+            "top": 7,
+            "jungle": 1,
+            "mid": 6,
+            "bottom": 8,
+            "support": 9
+        }
+    },
+    "seraphine": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "seraphine",
+            "sera"
+        ],
+        "displayname": "Seraphine",
+        "feasibility": {
+            "top": 3,
+            "jungle": 1,
+            "mid": 8,
+            "bottom": 6,
+            "support": 8
+        }
+    },
+    "sett": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "sett"
+        ],
+        "displayname": "Sett",
+        "feasibility": {
+            "top": 9,
+            "jungle": 6,
+            "mid": 6,
+            "bottom": 3,
+            "support": 8
+        }
+    },
+    "shaco": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "shaco",
+            "clown"
+        ],
+        "displayname": "Shaco",
+        "feasibility": {
+            "top": 3,
+            "jungle": 9,
+            "mid": 4,
+            "bottom": 5,
+            "support": 8
+        }
+    },
+    "shen": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "shen"
+        ],
+        "displayname": "Shen",
+        "feasibility": {
+            "top": 9,
+            "jungle": 7,
+            "mid": 5,
+            "bottom": 2,
+            "support": 6
+        }
+    },
+    "shyvana": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "shyvana"
+        ],
+        "displayname": "Shyvana",
+        "feasibility": {
+            "top": 7,
+            "jungle": 9,
+            "mid": 6,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "singed": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "singed"
+        ],
+        "displayname": "Singed",
+        "feasibility": {
+            "top": 9,
+            "jungle": 4,
+            "mid": 5,
+            "bottom": 4,
+            "support": 7
+        }
+    },
+    "sion": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "sion"
+        ],
+        "displayname": "Sion",
+        "feasibility": {
+            "top": 9,
+            "jungle": 3,
+            "mid": 5,
+            "bottom": 3,
+            "support": 2
+        }
+    },
+    "sivir": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": true,
+            "support": false
+        },
+        "aliases": [
+            "sivir"
+        ],
+        "displayname": "Sivir",
+        "feasibility": {
+            "top": 3,
+            "jungle": 1,
+            "mid": 5,
+            "bottom": 9,
+            "support": 3
+        }
+    },
+    "skarner": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "skarner"
+        ],
+        "displayname": "Skarner",
+        "feasibility": {
+            "top": 3,
+            "jungle": 9,
+            "mid": 3,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "sona": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "sona"
+        ],
+        "displayname": "Sona",
+        "feasibility": {
+            "top": 1,
+            "jungle": 0,
+            "mid": 2,
+            "bottom": 1,
+            "support": 9
+        }
+    },
+    "soraka": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "soraka",
+            "raka"
+        ],
+        "displayname": "Soraka",
+        "feasibility": {
+            "top": 7,
+            "jungle": 1,
+            "mid": 7,
+            "bottom": 2,
+            "support": 9
+        }
+    },
+    "swain": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "swain"
+        ],
+        "displayname": "Swain",
+        "feasibility": {
+            "top": 4,
+            "jungle": 3,
+            "mid": 9,
+            "bottom": 6,
+            "support": 8
+        }
+    },
+    "sylas": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "sylas"
+        ],
+        "displayname": "Sylas",
+        "feasibility": {
+            "top": 6,
+            "jungle": 6,
+            "mid": 9,
+            "bottom": 3,
+            "support": 4
+        }
+    },
+    "syndra": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "syndra"
+        ],
+        "displayname": "Syndra",
+        "feasibility": {
+            "top": 4,
+            "jungle": 3,
+            "mid": 9,
+            "bottom": 3,
+            "support": 7
+        }
+    },
+    "tahm kench": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "tahm",
+            "kench",
+            "tk",
+            "tahmkench"
+        ],
+        "displayname": "Tahm Kench",
+        "feasibility": {
+            "top": 9,
+            "jungle": 7,
+            "mid": 5,
+            "bottom": 3,
+            "support": 8
+        }
+    },
+    "taliyah": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "taliyah"
+        ],
+        "displayname": "Taliyah",
+        "feasibility": {
+            "top": 5,
+            "jungle": 9,
+            "mid": 6,
+            "bottom": 4,
+            "support": 5
+        }
+    },
+    "talon": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "talon"
+        ],
+        "displayname": "Talon",
+        "feasibility": {
+            "top": 5,
+            "jungle": 7,
+            "mid": 9,
+            "bottom": 3,
+            "support": 2
+        }
+    },
+    "taric": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "taric"
+        ],
+        "displayname": "Taric",
+        "feasibility": {
+            "top": 4,
+            "jungle": 7,
+            "mid": 5,
+            "bottom": 3,
+            "support": 9
+        }
+    },
+    "teemo": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "teemo",
+            "rat",
+            "rat fuck"
+        ],
+        "displayname": "Teemo",
+        "feasibility": {
+            "top": 9,
+            "jungle": 7,
+            "mid": 5,
+            "bottom": 2,
+            "support": 7
+        }
+    },
+    "thresh": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "thresh"
+        ],
+        "displayname": "Thresh",
+        "feasibility": {
+            "top": 6,
+            "jungle": 3,
+            "mid": 6,
+            "bottom": 3,
+            "support": 9
+        }
+    },
+    "tristana": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": true,
+            "support": false
+        },
+        "aliases": [
+            "tristana",
+            "tris",
+            "trist"
+        ],
+        "displayname": "Tristana",
+        "feasibility": {
+            "top": 5,
+            "jungle": 2,
+            "mid": 8,
+            "bottom": 9,
+            "support": 4
+        }
+    },
+    "trundle": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "trundle"
+        ],
+        "displayname": "Trundle",
+        "feasibility": {
+            "top": 5,
+            "jungle": 9,
+            "mid": 3,
+            "bottom": 3,
+            "support": 4
+        }
+    },
+    "tryndamere": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "tryndamere",
+            "tryn",
+            "trynd"
+        ],
+        "displayname": "Tryndamere",
+        "feasibility": {
+            "top": 9,
+            "jungle": 7,
+            "mid": 6,
+            "bottom": 3,
+            "support": 2
+        }
+    },
+    "twisted fate": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "twisted",
+            "fate",
+            "tf",
+            "twistedfate"
+        ],
+        "displayname": "Twisted Fate",
+        "feasibility": {
+            "top": 7,
+            "jungle": 3,
+            "mid": 0,
+            "bottom": 3,
+            "support": 4
+        }
+    },
+    "twitch": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": true,
+            "support": false
+        },
+        "aliases": [
+            "twitch",
+            "rat"
+        ],
+        "displayname": "Twitch",
+        "feasibility": {
+            "top": 3,
+            "jungle": 6,
+            "mid": 5,
+            "bottom": 9,
+            "support": 4
+        }
+    },
+    "udyr": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "udyr"
+        ],
+        "displayname": "Udyr",
+        "feasibility": {
+            "top": 4,
+            "jungle": 9,
+            "mid": 4,
+            "bottom": 2,
+            "support": 5
+        }
+    },
+    "urgot": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "urgot",
+            "crab",
+            "crab man"
+        ],
+        "displayname": "Urgot",
+        "feasibility": {
+            "top": 9,
+            "jungle": 8,
+            "mid": 4,
+            "bottom": 2,
+            "support": 4
+        }
+    },
+    "varus": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": true,
+            "support": false
+        },
+        "aliases": [
+            "varus"
+        ],
+        "displayname": "Varus",
+        "feasibility": {
+            "top": 5,
+            "jungle": 1,
+            "mid": 6,
+            "bottom": 9,
+            "support": 4
+        }
+    },
+    "vayne": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": false,
+            "bottom": true,
+            "support": false
+        },
+        "aliases": [
+            "vayne"
+        ],
+        "displayname": "Vayne",
+        "feasibility": {
+            "top": 8,
+            "jungle": 1,
+            "mid": 5,
+            "bottom": 9,
+            "support": 4
+        }
+    },
+    "veigar": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "veigar"
+        ],
+        "displayname": "Veigar",
+        "feasibility": {
+            "top": 4,
+            "jungle": 1,
+            "mid": 9,
+            "bottom": 3,
+            "support": 7
+        }
+    },
+    "vel'koz": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "velkoz",
+            "vel",
+            "koz",
+            "vk"
+        ],
+        "displayname": "Vel'Koz",
+        "feasibility": {
+            "top": 4,
+            "jungle": 1,
+            "mid": 6,
+            "bottom": 4,
+            "support": 9
+        }
+    },
+    "vi": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "vi"
+        ],
+        "displayname": "Vi",
+        "feasibility": {
+            "top": 3,
+            "jungle": 9,
+            "mid": 3,
+            "bottom": 3,
+            "support": 4
+        }
+    },
+    "viego": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "viego"
+        ],
+        "displayname": "Viego",
+        "feasibility": {
+            "top": 8,
+            "jungle": 9,
+            "mid": 7,
+            "bottom": 5,
+            "support": 5
+        }
+    },
+    "viktor": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "viktor"
+        ],
+        "displayname": "Viktor",
+        "feasibility": {
+            "top": 3,
+            "jungle": 3,
+            "mid": 9,
+            "bottom": 3,
+            "support": 5
+        }
+    },
+    "vladimir": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "vladimir",
+            "vlad"
+        ],
+        "displayname": "Vladimir",
+        "feasibility": {
+            "top": 3,
+            "jungle": 3,
+            "mid": 9,
+            "bottom": 3,
+            "support": 5
+        }
+    },
+    "volibear": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "volibear"
+        ],
+        "displayname": "Volibear",
+        "feasibility": {
+            "top": 9,
+            "jungle": 8,
+            "mid": 4,
+            "bottom": 3,
+            "support": 2
+        }
+    },
+    "warwick": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "warwick"
+        ],
+        "displayname": "Warwick",
+        "feasibility": {
+            "top": 8,
+            "jungle": 9,
+            "mid": 4,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "wukong": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "wukong"
+        ],
+        "displayname": "Wukong",
+        "feasibility": {
+            "top": 9,
+            "jungle": 7,
+            "mid": 5,
+            "bottom": 3,
+            "support": 2
+        }
+    },
+    "xayah": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": true,
+            "support": false
+        },
+        "aliases": [
+            "xayah"
+        ],
+        "displayname": "Xayah",
+        "feasibility": {
+            "top": 5,
+            "jungle": 1,
+            "mid": 8,
+            "bottom": 9,
+            "support": 5
+        }
+    },
+    "xerath": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "xerath"
+        ],
+        "displayname": "Xerath",
+        "feasibility": {
+            "top": 4,
+            "jungle": 1,
+            "mid": 9,
+            "bottom": 6,
+            "support": 8
+        }
+    },
+    "xin zhao": {
+        "positions": {
+            "top": false,
+            "jungle": true,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "xin",
+            "zhao",
+            "xz",
+            "xinzhao"
+        ],
+        "displayname": "Xin Zhao",
+        "feasibility": {
+            "top": 6,
+            "jungle": 8,
+            "mid": 9,
+            "bottom": 3,
+            "support": 4
+        }
+    },
+    "yasuo": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": true,
+            "support": false
+        },
+        "aliases": [
+            "yasuo",
+            "yas"
+        ],
+        "displayname": "Yasuo",
+        "feasibility": {
+            "top": 5,
+            "jungle": 3,
+            "mid": 9,
+            "bottom": 8,
+            "support": 3
+        }
+    },
+    "yone": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "yone"
+        ],
+        "displayname": "Yone",
+        "feasibility": {
+            "top": 8,
+            "jungle": 4,
+            "mid": 9,
+            "bottom": 3,
+            "support": 2
+        }
+    },
+    "yorick": {
+        "positions": {
+            "top": true,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "yorick"
+        ],
+        "displayname": "Yorick",
+        "feasibility": {
+            "top": 9,
+            "jungle": 3,
+            "mid": 4,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "yuumi": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "yuumi",
+            "cat"
+        ],
+        "displayname": "Yuumi",
+        "feasibility": {
+            "top": 7,
+            "jungle": 1,
+            "mid": 7,
+            "bottom": 3,
+            "support": 9
+        }
+    },
+    "zac": {
+        "positions": {
+            "top": true,
+            "jungle": true,
+            "mid": false,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "zac"
+        ],
+        "displayname": "Zac",
+        "feasibility": {
+            "top": 7,
+            "jungle": 9,
+            "mid": 6,
+            "bottom": 3,
+            "support": 6
+        }
+    },
+    "zed": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "zed"
+        ],
+        "displayname": "Zed",
+        "feasibility": {
+            "top": 5,
+            "jungle": 7,
+            "mid": 9,
+            "bottom": 3,
+            "support": 3
+        }
+    },
+    "ziggs": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": false
+        },
+        "aliases": [
+            "ziggs"
+        ],
+        "displayname": "Ziggs",
+        "feasibility": {
+            "top": 4,
+            "jungle": 1,
+            "mid": 9,
+            "bottom": 7,
+            "support": 7
+        }
+    },
+    "zilean": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": false,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "zilean"
+        ],
+        "displayname": "Zilean",
+        "feasibility": {
+            "top": 1,
+            "jungle": 0,
+            "mid": 5,
+            "bottom": 3,
+            "support": 9
+        }
+    },
+    "zoe": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "zoe",
+            "zoey"
+        ],
+        "displayname": "Zoe",
+        "feasibility": {
+            "top": 7,
+            "jungle": 0,
+            "mid": 9,
+            "bottom": 3,
+            "support": 7
+        }
+    },
+    "zyra": {
+        "positions": {
+            "top": false,
+            "jungle": false,
+            "mid": true,
+            "bottom": false,
+            "support": true
+        },
+        "aliases": [
+            "zyra"
+        ],
+        "displayname": "Zyra",
+        "feasibility": {
+            "top": 4,
+            "jungle": 4,
+            "mid": 8,
+            "bottom": 4,
+            "support": 9
+        }
+    }
+}
