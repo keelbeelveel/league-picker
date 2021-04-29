@@ -16,6 +16,7 @@ for cog in bot_cogs:
 @bot.event
 async def on_ready():
     await bot.change_presence(status=discord.Status.idle, activity=discord.Activity(type=discord.ActivityType.watching,name="you int"))
+    print("==[ Ready. ]==")
 
 
 @bot.before_invoke

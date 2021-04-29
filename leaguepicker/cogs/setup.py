@@ -1,11 +1,9 @@
 from setuptools import setup
 
 setup(
-    name='leaguepicker',
+    name='cogs',
     version='1.0.0',
-    packages=['leaguepicker'],
+    packages=['cogs'],
     install_requires=[
-        'discord.py'
-        './cogs'
     ]
 )

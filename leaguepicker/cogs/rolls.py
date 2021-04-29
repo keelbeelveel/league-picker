@@ -1,5 +1,5 @@
 from discord.ext import commands
-from leaguepicker.picker import Picker
+from picker import Picker
 
 class Rolls(commands.Cog):
     def __init__(self, bot):

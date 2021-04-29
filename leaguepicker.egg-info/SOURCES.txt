@@ -1,5 +1,4 @@
 setup.py
-leaguepicker/__init__.py
 leaguepicker/__main__.py
 leaguepicker/bot.py
 leaguepicker/helper.py

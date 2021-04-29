@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -Eeuo pipefail
+bin/install
+python3 leaguepicker
