@@ -1,0 +1,5 @@
+#!/bin/bash
+set -Eeuox pipefail
+rm -rvf var/database.sqlite3
+sqlite3 var/database.sqlite3 < sql/schema.sql
+set +x

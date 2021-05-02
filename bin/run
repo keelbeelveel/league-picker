@@ -1,0 +1,37 @@
+#!/bin/bash
+
+set -Eeuo pipefail
+
+DEBUG=False
+SILENT=False
+
+usage() {
+    echo "$0 (debug|silent)"
+}
+
+if [ $# -eq 0 ]; then
+    DEBUG=False
+fi
+
+while (( "$#" )); do
+case $1 in
+    "help")
+        usage
+        exit 1
+        ;;
+    "usage")
+        usage
+        exit 1
+        ;;
+    "debug")
+        DEBUG=True
+        ;;
+    "silent")
+        SILENT=True
+        ;;
+esac
+shift
+done
+
+bin/install
+python3 leaguepicker $DEBUG $SILENT

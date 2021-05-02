@@ -2,4 +2,8 @@
 
 set -Eeuo pipefail
 
-python -m setup.py install
+set -x
+sudo pip3 install -q -r requirements.txt > /dev/null
+sudo pip3 install -q -e leaguepicker > /dev/null
+sudo python3 setup.py install > /dev/null
+set +x

@@ -1,9 +1,10 @@
--- Schema modified: Tue April 27, 2021 @ 07:18:00 EDT
+-- Schema modified: Wed April 28, 2021 @ 10:35:10 EDT
 PRAGMA foreign_keys = ON;
 
 CREATE TABLE users(
     userid VARCHAR(32) NOT NULL,
-    summonerid VARCHAR(96) NOT NULL
+    summonerid VARCHAR(96) NOT NULL,
+    PRIMARY KEY(userid)
 );
 
 CREATE TABLE lists(
@@ -30,6 +31,7 @@ CREATE TABLE champs(
     userid VARCHAR(32) NOT NULL,
     mastery INTEGER,
     owned BOOLEAN,
+    champ VARCHAR(64) NOT NULL,
     displayname VARCHAR(32) NOT NULL,
     PRIMARY KEY(champid, userid),
     FOREIGN KEY(userid) REFERENCES users(userid)

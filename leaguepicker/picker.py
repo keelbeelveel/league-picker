@@ -7,38 +7,20 @@ import random
 import os
 from data_handler import alias_to_champid, call_input, create_list
 from data_handler import get_list_attrib, get_champ_attrib
-from data_handler import get_champ_ids
+from data_handler import get_champ_list
+from exceptions import UserException, SystemException
 
 class Picker:
-    def __init__(self, ctx):
+    def __init__(self, bot, ctx, debug=False):
+        self.bot = bot
         self.ctx = ctx
-        with open(get_champ_file(ctx.author.id), 'r') as file:
-            self.champs = json.load(file)
-
-        with open(get_data_file(ctx.author.id), 'r') as file:
-            self.game_history = json.load(file)
-
-        self.debug = False;
+        self.champs = get_champ_list(ctx)
+        self.debug=debug
 
 
     async def call_input(self, prompt):
-        from bot import get_input
-        string = await get_input(self.ctx, prompt)
+        string = await self.bot.get_in(self.ctx, prompt)
         return string
-
-
-    async def alias_to_champ(self, alias):
-        if alias in self.champs.keys():
-            return alias
-        for champ, data in self.champs.items():
-            if alias in data['aliases']:
-                conf = await self.call_input(f"Did you mean {self.champs[champ]['displayname']}? (y/n)\t")
-                conf = conf.lower()
-                if conf != '' and conf[0] == 'y':
-                    alias = champ
-                    break
-        return alias
-
 
     def filter_feasibility(self, sel_body, min_feas=0, max_feas=9):
         remove = []
@@ -93,18 +75,9 @@ class Picker:
         sel_body = []
         champ_list = []
         if params['use_list'] is not None:
-            if params['use_list'] == "":
-                list_file = get_data_dir(self.ctx.author.id) / '.tmp' / 'tmp.json'
-            else:
-                list_file = get_data_dir(self.ctx.author.id) / 'lists' / params['use_list']
-            with open(list_file) as file:
-                raw_list = json.load(file)
-                for item in raw_list:
-                    champ = await self.alias_to_champ(item)
-                    if champ in self.champs.keys():
-                        champ_list.append(champ)
-                    else:
-                        print(f"{champ} not found in valid champ directory. Add new champs with python3 stat_loader.py")
+            raw_list = get_champ_list(self.ctx, params['use_list'])
+            for champ in raw_list.keys():
+                champ_list.append(champ)
         else:
             for champ in self.champs.keys():
                 champ_list.append(champ)
@@ -149,7 +122,7 @@ class Picker:
             random.shuffle(sel_body)
 
         if choices > len(sel_body):
-            raise Exception("Parameters make search body too narrow. Adjust your options.\n")
+            raise UserException("Parameters make search body too narrow. Adjust your options.\n")
         elif choices == 1:
             result = random.choice(sel_body)
             output = output + f"Selected {self.champs[result['champ']]['displayname']} {result['position'][0].upper()+result['position'][1:]}\n"
@@ -194,81 +167,6 @@ class Picker:
         print(fit_text)
         if split_at < len(text.split(' ')):
             self.smart_print_inline(" ".join(text.split(' ')[split_at-1:]), indent, cols)
-
-    def show_help(self):
-        cols, lines = os.get_terminal_size()
-        print("Run to randomly select League picks.\n\n")
-        self.center_title("ARGUMENTS", "=", cols)
-        print('')
-        self.center_title("The selector itself supports many arguments. One or more can be used, although overconstraining the selection may return an error.", " ", cols)
-        print('')
-        print(" --position=[+/-][tjmbs] | --pos=[+/-][tjmbs] | -p=[+/-][tjmbs]")
-        print('')
-        self.smart_print_inline("Contrain the roles to be selected from.\n", 4, cols)
-        self.smart_print_inline("List the roles to play, like --pos=tjb for Top, Jungle, or Bottom.\n", 4, cols)
-        self.smart_print_inline("Use '-' to subtract a role to avoid, like --pos=-mj to indicate anything but Mid or Jungle.\n", 4, cols)
-        if lines < 50:
-            self.call_input("Press ENTER to continue.")
-        print('')
-        print(" --sanity=[sane|insane|all] | -s=[sane|insane|all]\n")
-        self.smart_print_inline("Constrain role/champ pairs using a sanity check. Options:\n", 4, cols)
-        self.smart_print_inline("'sane'\t: (default) only select champs/roles where the sanity is set to True.\n", 4, cols)
-        self.smart_print_inline("'insane'\t: Invert the sanity check. Only select champs/roles where the sanity is set to False.\n", 4, cols)
-        self.smart_print_inline("'all'\t: Ignore the sanity check entirely. All champs/roles are fair game.\n", 4, cols)
-        if lines < 50:
-            self.call_input("Press ENTER to continue.")
-        print('')
-        print(' --feas=[preset] | -f=[preset]\n')
-        self.smart_print_inline("Constrain the selection to feasibility scores within the preset range. Presets include:\n", 4, cols)
-        print("    |  PRESET  | MIN_FEAS  | MAX_FEAS  |")
-        print("    |----------|-----------|-----------|")
-        print("    | meta/std |     7     |     9     |")
-        print("    | nonmeta  |     5     |     7     |")
-        print("    | troll    |     3     |     5     |")
-        print("    | hell     |     0     |     3     |")
-        print("    |-meta/-std|     0     |     7     |")
-        print("    | -nonmeta |     0     |     5     |")
-        print("    | -troll   |     5     |     9     |")
-        print("    | -hell    |     3     |     9     |")
-        print("    |----------|-----------|-----------|\n")
-        self.smart_print_inline("NOTE: For most presets (other than meta), -s=all needs to be specified to ignore sanity check!\n", 4, cols)
-        self.smart_print_inline("Feasibility scores for individual champ/roles can be edited using the 'edit' flag (more info below).\n",4,cols)
-        if lines < 50:
-            self.call_input("Press ENTER to continue.")
-        print('')
-        print(' --minfeas=[count] | -mnfs=[count]\n')
-        self.smart_print_inline("The minimum acceptable feasibility score to be included in the result. 0 (default) includes all results. Count must be between 0 and 9 (inclusive).\n", 4, cols)
-        print(' --maxfeas=[count] | -mxfs=[count]\n')
-        self.smart_print_inline("The maximum acceptable feasibility score to be included in the result. 9 (default) includes all results. Count must be between 0 and 9 (inclusive).\n", 4, cols)
-        print(' --5q | -5\n')
-        self.smart_print_inline("Specify this flag to generate 5 sets of selections, one for each role (for teams of 5). The 5q flag guarantees that selections for each role will not conflict with one another.\n", 4, cols)
-        print(' --choices=[count] | -n=[count]\n')
-        self.smart_print_inline("Specify the number of options to choose from for each selection. Choices will not repeat. This is compatible with the --5q option (designed to ensure at least one champ is not banned or is owned, especially in 5q mode)\n", 4, cols)
-        self.smart_print_inline("NOTE: If [count] exceeds the number of available selections, an error will be returned. Reduce the constraints/parameters or decrease [count] to produce results. (Make sure to use --sanity=all with the --feas flag)\n", 4, cols)
-        print("")
-        self.call_input("Press ENTER to continue.")
-        print('')
-        self.center_title("PRESETS", "=", cols)
-        print('')
-        self.smart_print_inline("The following commands allow the saving and loading from preset champion lists. Champion lists must be saved to the /league-picker/ folder and use the naming convention listName.json.\n", 4, cols)
-        self.smart_print_inline("To use a champion pool, simply specify the flag:\n", 4, cols)
-        print('''    --from='["champA","champB","champC",...]'  \n''')
-        self.smart_print_inline("Champion names specified in the list must be quoted as seen here. Listed names can either be champion names or acceptable aliases (ie. 'mundo'). The program will confirm that it interpreted your alias correctly. Aliases can be customized using the 'edit' flag (more info below).\n", 4, cols)
-        self.smart_print_inline("The list can also be inverted (ie. a list of champs to exclude) by putting a minus sign '-' after the equals sign. This only works for the --from= flag, and will not work if a '-' is added to a saved list.\n", 4, cols)
-        self.smart_print_inline("By default, the specified champion list will not be saved. To save the list for easy use later, use the flag:\n", 4, cols)
-        print('''    --as=[listName]\n''')
-        self.smart_print_inline("listName must be an acceptable filename or the program will not be able to store your list. The list can then be edited at the file `/league-picker/listName.json`.\n", 4, cols)
-        self.smart_print_inline("In the future, a saved list can be accessed using only the `--as=listName` flag. This can also be shortened to `-i=listName`. This flag will load the list from the file at listName.json and select from the specified champion pool. Champion lists are compatible with all previously listed flags.\n", 4, cols)
-        self.call_input("Press ENTER to continue.")
-        print('')
-        self.center_title("EDITING", '=', cols)
-        print('')
-        self.smart_print_inline("The mastery, ownership, aliases, displaynames, play frequency, sanity, and feasibility of each role/champ can be customized. Custom builds or runes can easily be added to the system. To access the champion data editor, run this command with 'edit' as the first argument.\n", 4, cols)
-        self.smart_print_inline('To add a new build/runeset from the editor, simply create a custom name for a new "champion". Name it something distinctive, for example "Omnistone Nasus" or "AD Twitch". The system will walk you through assigning sanity and feasibility scores to your addition. These entries can now be selected like any other champion.\n''', 4, cols)
-        self.smart_print_inline("To edit the mastery, ownership, alias, frequency, feasibility, sanity, etc. for an existing entry, just type an existing name or alias into the editor dialog. The program will confirm that it interpreted your alias correctly, and show you the entry data. Then, enter the field to be altered.\n", 4, cols)
-        self.smart_print_inline("Note that the 'fun', 'skill', and 'freq' categories cannot be used to filter selections at this time.\n", 4, cols)
-        self.smart_print_inline("For additional editing help, type 'help' into the editor dialog for more information.\n", 4, cols)
-        self.call_input("Press ENTER to exit.")
 
 
     async def select(self,args):
@@ -317,8 +215,7 @@ class Picker:
                     elif val == 'all' or val == "a":
                         parameters['pos_sanity'] = 'all'
                     else:
-                        sys.stderr.write("Invalid value for key 'sanity', valid options include [s]ane, [i]nsane, [a]ll\n")
-                        sys.exit(1)
+                        raise UserException("Invalid value for key 'sanity', valid options include [s]ane, [i]nsane, [a]ll")
                 if key == 'position' or key == 'pos' or key == "p":
                     parameters['positions'] = ['top', 'jungle', 'mid', 'bottom', 'support']
                     remove = []
@@ -340,7 +237,7 @@ class Picker:
                 if key == 'choices' or key == "n":
                     choices = int(val)
                     if choices <= 0 or choices > 155:
-                        sys.stderr.write("Invalid value for key 'choices', must be 0 < n <= 155\n")
+                        raise UserException("Invalid value for key 'choices', must be 0 < n <= 155")
                         sys.exit(1)
                 if key == 'minfeas' or key == 'mnfs':
                     minfeas = int(val)
@@ -375,8 +272,7 @@ class Picker:
                         elif val[1:] == "0":
                             parameters['min_feas'] = 1
                         else:
-                            sys.stderr.write("Invalid feasibility setting. Valid options are [std|meta|nonmeta|troll|hell|9|0]\n")
-                            sys.exit(1)
+                            raise UserException("Invalid feasibility setting. Valid options are [std|meta|nonmeta|troll|hell|9|0]")
                     else:
                         if val == "std" or val == "meta":
                             parameters['min_feas'] = 7
@@ -393,7 +289,7 @@ class Picker:
                         elif val == "0":
                             parameters['max_feas'] = 0
                         else:
-                            sys.stderr.write("Invalid feasibility setting. Valid options are [std|meta|nonmeta|troll|hell|9|0]\n")
+                            raise UserException("Invalid feasibility setting. Valid options are [std|meta|nonmeta|troll|hell|9|0]")
                             sys.exit(1)
                     print(f"Filtering feasibilty by range {parameters['min_feas']} <= f <= {parameters['max_feas']}")
                 if key == 'from' or still_listing:
@@ -419,15 +315,14 @@ class Picker:
                             print(json_data)
                             entered_list = json.loads(json_data)
                     except:
-                        sys.stderr.write("Failed to load from list. Make sure list in json format.")
-                        sys.exit(1)
+                        raise SystemException("Failed to load from list.")
                     if json_data is None:
                         continue
                     if invert_list:
                         for champ in self.champs.keys():
                             args_list.append(champ)
                     for item in entered_list:
-                        champ = await self.alias_to_champ(item)
+                        champ = await alias_to_champid(self.ctx, item)
                         if champ not in self.champs.keys():
                             print(f"Could not find {champ} in data. Ignoring.")
                             continue
@@ -436,14 +331,11 @@ class Picker:
                         else:
                             args_list.append(champ)
                 if key == 'as' or key == "i":
-                    list_as = f'{val}.json'
+                    list_as = f'{val}'
                     parameters['use_list'] = list_as
             else:
                 if arg == '5q' or arg == "5":
                     team_mode = True
-                elif arg == 'help' or arg == "h":
-                    self.show_help()
-                    sys.exit(0)
                 elif arg == 'top' or arg == "t":
                     parameters['positions'].append('top')
                 elif arg == 'mid' or arg == "m" or arg == "middle":
@@ -454,20 +346,25 @@ class Picker:
                     parameters['positions'].append('bottom')
                 elif arg == 'sup' or arg == "s" or arg == "support" or arg == "supp":
                     parameters['positions'].append('support')
+                elif arg == 'sysex':
+                    if self.debug:
+                        raise SystemException("Forced SystemException")
+                elif arg == 'stdex':
+                    if self.debug:
+                        raise Exception("Forced Exception")
+                elif arg == 'usex':
+                    if self.debug:
+                        raise UserException("Forced UserException")
 
         if still_listing:
-            raise Exception("No closing ']' found in list.")
+            raise UserException("No closing ']' found in list.")
         if len(args_list):
             if list_as is None:
-                list_as = 'tmp.json'
-                list_dir = get_data_dir(self.ctx.author.id) /'.tmp'
-                parameters['use_list'] = ""
-            else:
-                list_dir = get_data_dir(self.ctx.author.id) / 'lists'
-                parameters['use_list'] = list_as
+                list_as = '~~tmp~~'
+            parameters['use_list'] = list_as
+            # TODO: Is this necessary?
             if list_as == 'champ_data' or list_as == 'game_data':
-                sys.stderr.write("Invalid list name-- would overwrite a necessary program file.\n")
-                sys.exit(1)
+                raise SystemException("Invalid list name-- would overwrite a necessary program file.\n")
             await create_list(self.ctx, list_as, args_list)
         try:
             if team_mode:
@@ -481,5 +378,7 @@ class Picker:
             else:
                 _, output = await self.do_selection(parameters, choices)
             return output
-        except Exception as err:
+        except UserException as err:
             return f"```diff\n- {err}\n```"
+        except Exception as err:
+            raise SystemException(err)

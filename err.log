@@ -23,3 +23,76 @@ Command error: Command raised an exception: IndexError: list index out of range
 Command error: Command raised an exception: IndexError: list index out of range
 Command error: Command raised an exception: IndexError: list index out of range
 Command error: Command raised an exception: IndexError: list index out of range
+Command error: Command raised an exception: ValueError: operation parameter must be str
+Command error: Command raised an exception: OperationalError: unable to open database file
+Command error: Command raised an exception: ValueError: operation parameter must be str
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: TypeError: 'coroutine' object is not iterable
+Command error: Command raised an exception: NameError: name 'champid' is not defined
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command "rolls" is not found
+Command error: Command "rolls" is not found
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: TypeError: bad operand type for unary +: 'tuple'
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: OperationalError: no such table: users
+Command error: Command raised an exception: OperationalError: no such table: users
+Command error: Command raised an exception: OperationalError: no such table: users
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: KeyError: 'champid'
+Command error: Command raised an exception: KeyError: 'champid'
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: OperationalError: no such column: sane
+Command error: Command raised an exception: OperationalError: ambiguous column name: userid
+Command error: Command raised an exception: NameError: name 'feasibility' is not defined
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: KeyError: 'aliases'
+Command error: Command raised an exception: TypeError: alias_to_champid() missing 1 required positional argument: 'alias'
+Command error: Command raised an exception: OperationalError: no such column: STANDARD
+Command error: Command raised an exception: ProgrammingError: Incorrect number of bindings supplied. The current statement uses 2, and there are 3 supplied.
+Command error: Command raised an exception: NameError: name 'get_data_dir' is not defined
+Command error: Command raised an exception: NameError: name 'champid' is not defined
+Command error: Command raised an exception: NameError: name 'champid' is not defined
+Command error: Command raised an exception: OperationalError: ambiguous column name: userid
+Command error: Command raised an exception: OperationalError: no such column: lists.champid
+Command error: Command raised an exception: AttributeError: 'int' object has no attribute 'lstrip'
+Command error: Command raised an exception: IntegrityError: UNIQUE constraint failed: lists.userid, lists.listname
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: TypeError: sequence item 0: expected str instance, dict found
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: TypeError: call_input() missing 1 required positional argument: 'prompt'
+Command error: Command raised an exception: TypeError: can only join an iterable
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: TypeError: can only join an iterable
+Command error: Command "list" is not found
+Command error: Command "role" is not found
+Command error: Command "list" is not found
+Command error: Command "junglew" is not found
+Command error: Command raised an exception: NameError: name 'SystemException' is not defined
+Command error: Command raised an exception: TypeError: __init__() missing 1 required positional argument: 'ctx'
+Command error: Command raised an exception: Exception: Forced Exception
+Command error: Command raised an exception: UserException: Forced UserException
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: NameError: name 'err' is not defined
+Command error: Command raised an exception: IndexError: string index out of range
+Command error: Command raised an exception: IndexError: list index out of range
+Command error: Command raised an exception: TypeError: list_lists() takes 2 positional arguments but 3 were given
+Command error: Command raised an exception: KeyError: 'champs.mastery'
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: BdbQuit: 
+Command error: Command raised an exception: UnboundLocalError: local variable 'reverseMe' referenced before assignment
+Command error: Command raised an exception: NameError: name 'list_title' is not defined
